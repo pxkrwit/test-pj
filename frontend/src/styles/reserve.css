@@ -1,0 +1,108 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+header {
+    height: auto;
+    width: auto;
+    padding: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-color: rgb(0, 64, 128);
+  }
+  
+.section {
+    width: auto;
+    height: 100%;
+    padding: 16px 32px;
+    margin: 32px 7.5% 32px 7.5%;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 2px 6px 0px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+footer {
+    background-color: rgb(0, 64, 128);
+    color: white;
+    padding: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    text-align: center;
+  }
+  
+
+#logoutBtn {
+    border: none;
+    background-color:  rgb(255, 255, 255);
+    color: rgb(0, 64, 128);
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 8px;
+  }
+#logoutBtn:hover{
+  background-color: rgb(225, 225, 228);
+  color: rgb(0, 64, 128);
+  border-radius: 8px;
+}
+
+.ecors-button-declare {
+    padding-top:5px ;
+    
+}
+#btndeclare {
+    border: none;
+    background-color: rgb(134, 132, 132);
+    color: white;
+    border-radius: 6px;
+    font-size: 12px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+.table-wrap {
+      max-width: 100%;
+      margin: 16px auto;
+      font-family: Arial, sans-serif;
+      font-size: 14px;
+    }
+  
+table {
+      width: auto;
+      border-collapse: collapse;
+      table-layout: auto;
+    }
+
+.ecors-plan-container {
+    margin: 20px 0;
+    display: flex;
+    flex-direction: column;
+    max-width: auto;
+  }
+.section p {
+    margin-bottom: 4px; 
+  }
+  
+.ecors-dropdown-plan {
+    width: 100%;
+    background-color: #fff;
+    border: 2px solid #ccc; 
+    padding: 5px 5px;
+    font-size: 16px;
+    color: #333;
+    cursor: pointer;
+    transition: border-color 0.2s, box-shadow 0.2s;
+  }
+.status {
+  padding: 5px 10px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.ecors-fullname {
+  font-size: 14px;
+  font-weight: bold;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/345634432/SIT_Symbols_trans01_200x200.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Plans</title>
+    <link rel="stylesheet" href="../src/styles/reserve.css" />
+  </head>
+  <body>
+    <dialog closedby="none" class="ecors-dialog">
+      <p id="message" class="ecors-dialog-message"></p>
+    </dialog>
+    <header>
+      <img
+        src="https://bscit.sit.kmutt.ac.th/intproj25/ft/itb-ecors/SITLogo.png"
+        alt="University Logo"
+        style="height: 50px; width: 230px"
+        class="logo"
+      />
+      <h1>Study Plan Declaration and Course Reservation</h1>
+      <div class="ecors-fullname">
+        <p>Welcome,<span id="fullName"></span></p>
+      </div>
+      <div class="ecors-button-signout">
+        <button id="logoutBtn">Sign Out</button>
+      </div>
+    </header>
+    <main>
+      <div class="status">
+        <p>Declaration Status:<span id="declaredStatus" class="ecors-declared-plan"> Not Declared</span></p>
+      </div>
+      <section id="majorListSection" class="section">
+        <h2>Declare Your Major</h2>
+        <p>Select Major:</p>
+        <select id="studyPlan" class="ecors-dropdown-plan">
+          <option value="">-- Select Major --</option>
+        </select>
+     <div class="ecors-button-declare">
+        <button id="btndeclare">Declare</button>
+      </div>
+      </section>
+    </main>
+    <footer>
+      <p>© 2025 School of Information Technology, KMUTT</p>
+    </footer>
+    <script type="module" src="../src/pages/reserve.js"></script>
+  </body>
+</html>

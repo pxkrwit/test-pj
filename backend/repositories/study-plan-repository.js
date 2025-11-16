@@ -3,6 +3,6 @@ const prisma = new PrismaClient()
 
 module.exports = {
     findAll: async function(){
-        return await prisma.studyPlans.findMany();
+        return await prisma.study_plans.findMany();
     }
 }

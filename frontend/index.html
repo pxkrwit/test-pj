@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/png" href="https://pbs.twimg.com/profile_images/345634432/SIT_Symbols_trans01_200x200.gif" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Study Plans</title>
+    <link rel="stylesheet" href="src/styles/main.css" />
+  </head>
+  <body>
+    <dialog closedby="none" class="ecors-dialog">
+      <p id="message" class="ecors-dialog-message"></p>
+    </dialog>
+    <header>
+      <img
+        src="https://bscit.sit.kmutt.ac.th/intproj25/ft/itb-ecors/SITLogo.png"
+        alt="University Logo"
+        style="height: 50px; width: 230px"
+        class="logo"
+      />
+      <h1>Study Plan Declaration and Course Reservation</h1>
+    </header>
+    <main>
+    <div class="button-container"> 
+        <button id="loginBtn" class="ecors-button-manage">Manage study plan declaration and course reservation</button>
+    </div>
+      <section id="majorListSection" class="section">
+        <h2>B.Sc.IT - Study Plans</h2>
+        <div class="table-wrap">
+          <table id="study-table">
+            <thead>
+              <tr>
+                <th class="col-id">ID</th>
+                <th class="col-code">Study Code</th>
+                <th class="col-en-name">English Name</th>
+                <th class="col-th-name">Thai Name</th>
+              </tr>
+            </thead>
+            <tbody id="ecors-row"></tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <p>Â© 2025 School of Information Technology, KMUTT</p>
+    </footer>
+    <script type="module" src="./src/main.js"></script>
+  </body>
+</html>
